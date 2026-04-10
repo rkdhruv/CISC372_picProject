@@ -1,0 +1,12 @@
+Script started on Fri Apr 10 19:09:04 2026
+[dhruvpat@r1n01 CISC372_picProject]$ export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+[dhruvpat@r1n01 CISC372_picProject]$ srun ./openMPImage pic1.jpg edge
+Took 7 seconds
+[dhruvpat@r1n01 CISC372_picProject]$ srun ./pthreadsImage pic1.jpg edge
+Took 7 seconds
+[dhruvpat@r1n01 CISC372_picProject]$ srun ./image pic1.jpg edge
+Took 8 seconds
+[dhruvpat@r1n01 CISC372_picProject]$ exit
+exit
+
+Script done on Fri Apr 10 19:09:59 2026
